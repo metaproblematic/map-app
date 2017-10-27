@@ -1,0 +1,24 @@
+html, body {
+	height: 100vh;
+	width: 100vw;
+}
+
+
+img {
+	height: auto;
+	width: 80vw;
+}
+
+
+.container {
+	position: relative;
+
+}
+
+.dot {
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	height: .75rem;
+	width: .75rem;
+}
