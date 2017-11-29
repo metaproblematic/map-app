@@ -10,16 +10,14 @@
 <body>
 	<div id="app">
 		<div class="container">
-			<img src="/topo-co.jpg" v-on:click="markIt">
+			<img src="/map.png" v-on:click="markIt">
 			<div 
 			v-for="(mark, i) in markers" 
 			v-bind:style="{left: mark.offsetx, top: mark.offsety}" 
 			class="dot"
 			v-on:click="remove(i)">
 			
-			</div>
-
-	
+			</div>	
 	
 	</div>
 
